@@ -1,0 +1,180 @@
+doctype html
+// This site was created in Webflow. http://www.webflow.com
+// Last Published: Wed Aug 12 2015 02:52:35 GMT+0000 (UTC)
+html(data-wf-site='55b92db656162c9c6d02b3dd', data-wf-page='55b92db656162c9c6d02b3e1')
+  head
+    meta(charset='utf-8')
+    |   
+    title Politics Rewired
+    |   
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    |   
+    meta(name='generator', content='Webflow')
+    |   
+    link(rel='stylesheet', type='text/css', href='css/normalize.css')
+    |   
+    link(rel='stylesheet', type='text/css', href='css/webflow.css')
+    |   
+    link(rel='stylesheet', type='text/css', href='css/politics-rewired.webflow.css')
+    |   
+    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js')
+    |   
+    script.
+      WebFont.load({
+      google: {
+      families: ["Inconsolata:400,400italic,700,700italic","Oswald:300,400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Fjalla One:regular","Average:regular"]
+      }
+      });
+    |   
+    script(type='text/javascript', src='js/modernizr.js')
+    |   
+    link(rel='shortcut icon', type='image/x-icon', href='images/ico.png')
+    |   
+    link(rel='apple-touch-icon', href='images/256 1.jpg')
+  body
+    .w-section.full-section.loading-section(data-ix='loading-section')
+      img.loading-image(src='images/infinite-gif-preloader.gif')
+    |   
+    section.w-section
+      section.w-clearfix.navbar
+        a.w-nav-brand.brand-logo(href='index.html')
+          img(src='images/60.png')
+        |       
+        a.w-inline-block.menu-bars(href='#', data-ix='menu-click')
+          img(src='images/menu.svg', height='24')
+        |       
+        .menu(data-ix='hide-nav-on-load')
+          a.nav-link(href='participate.html') Participate
+          a.nav-link(href='host.html') host
+          a.nav-link(href='partner.html') Partner
+          a.nav-link(href='think.html') think
+    |   
+    .w-section
+      .w-nav.w-hidden-medium.w-hidden-small.w-hidden-tiny.circle-navbar(data-collapse='none', data-animation='default', data-duration='400', data-contain='1', data-ix='opacity-0-load')
+        .w-container
+          nav.w-nav-menu(role='navigation')
+            a.w-inline-block.circle-link(href='#about', data-ix='show-circle-label')
+              .circle-label(data-ix='opacity-0-load') Hello
+            |           
+            a.w-inline-block.circle-link(href='#participate', data-ix='show-circle-label')
+              .circle-label(data-ix='opacity-0-load') participate
+            |           
+            a.w-inline-block.circle-link(href='#host', data-ix='show-circle-label')
+              .circle-label(data-ix='opacity-0-load') host
+            |           
+            a.w-inline-block.circle-link(href='#partner', data-ix='show-circle-label')
+              .circle-label(data-ix='opacity-0-load') partner
+            |           
+            a.w-inline-block.circle-link(href='#think', data-ix='show-circle-label')
+              .circle-label(data-ix='opacity-0-load') think
+          |         
+          .w-nav-button
+            .w-icon-nav-menu
+    |   
+    section#Home.w-section.home-section.full-section(data-ix='home-section')
+      img.w-hidden-small.w-hidden-tiny.mainimage(src='images/poliicsrewiredhand.png')
+    |   
+    section#about.w-section
+      section.w-section.section.style-section
+        .w-container.wide-container
+          .w-row
+            .w-col.w-col-6.column
+              img.notinverted.furtherdown(src='images/what it is.png', width='431')
+              |             
+              p.style-p(data-ix='slide-up-on-scroll')
+                | The Politics Rewired series aims to be a wave of computer programming events at colleges across America that will focus on creating open source tools for political organizing, community development, collective decision making, information dissemination, and whatever anyone else thinks of.
+                br
+                |               
+                br
+                | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Given the political potential that may be hiding within new communications technology, our task as programmers ought to be to unlock it &ndash; to find the right combination of bits that can streamline organizing efforts, make movements more internally democratic, and correct imbalances to media access and control.
+                |               
+                br
+                |               
+                br
+                | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you don&rsquo;t program, there&rsquo;s still a role for you here. Scroll down to the THINK section below, or 
+                a(href='#think') click here.
+              a.button.button-color-5(href='about.html') more about Politics Rewired...
+            |           
+            .w-col.w-col-6.column
+              img(src='images/politicsrewiredv6.2.gif')
+    |   
+    section.main-site-content
+      section#participate.w-section.full-section.participate
+        .w-row.full-page.participate
+          .w-col.w-col-6.w-col-small-6.w-hidden-tiny.w-clearfix.full-column.image-1
+            img.w-hidden-small.w-hidden-tiny.left-diagonal(src='images/diagnal-right-black.svg', height='101.5%')
+          |         
+          .w-col.w-col-6.w-col-small-6.full-column.grey
+            .column-content.right-content(data-ix='fade-in-on-scroll')
+              img.inverted.participate(src='images/participate button.png')
+              |             
+              p.light
+                | Find a Politics Rewired event near you,&nbsp;register, make travel arrangements, start finding collaborators, brainstorming ideas, and more...
+              a.button.button-color-1(href='participate.html') more about participating...
+      |     
+      section#host.w-section.full-section.host
+        .w-row.full-page
+          .w-col.w-col-6.w-col-small-6.full-column
+            .column-content(data-ix='fade-in-on-scroll')
+              img.notinverted.host(src='images/host button.png', width='222')
+              |             
+              p
+                | Politics Rewired isn&apos;t just one Hackathon &ndash; it&rsquo;s a series of them. That means&nbsp;we need as many hosters as possible, and anybody can host one!
+                br
+                |               
+                br
+                | You provide the location, food, and Internet, and we&rsquo;ll help out with money.
+              a.button.button-color-2(href='host.html') more about hosting...
+          |         
+          .w-col.w-col-6.w-col-small-6.w-hidden-tiny.w-clearfix.full-column.image-4
+            img.w-hidden-small.w-hidden-tiny.right-diagonal(src='images/diagnal-left-white.svg', height='101.5%')
+      |     
+      section#partner.w-section.full-section
+        .w-row.full-page
+          .w-col.w-col-6.w-col-small-6.w-hidden-tiny.w-clearfix.full-column.image-3
+            img.w-hidden-small.w-hidden-tiny.left-diagonal(src='images/diagnal-right-black.svg', height='101.5%')
+          |         
+          .w-col.w-col-6.w-col-small-6.full-column.grey
+            .column-content.right-content(data-ix='fade-in-on-scroll')
+              img.inverted(src='images/partner button.png', width='282')
+              |             
+              p.light
+                | As a Politics Rewired partner, you&nbsp;have an opportunity to influence what gets developed by articulating your organizing needs and introducing prizes. Everything produced will be open source, so you can use it after and continue to work with the creators to customize it for you.
+                br
+                |               
+                br
+                | You also get to table for your organization and forge local connections to people who can help you out!
+              a.button.button-color-3(href='partner.html') more about partnering...
+      |     
+      section#think.w-section.full-section
+        .w-row.full-page
+          .w-col.w-col-6.w-col-small-6.full-column
+            .column-content(data-ix='fade-in-on-scroll')
+              img.notinverted(src='images/think button.png', width='241')
+              |             
+              p
+                | Hackathons don&apos;t have to just be about programming &ndash; they are also about creative participation in collective problem solving.
+                br
+                |               
+                br
+                | Politics Rewired Hackathons have opportunities for art, legislation drafting, analysis of political trends, and more.
+                |               
+                br
+                |               
+                br
+                | &nbsp;Have an idea for what the health care or prison systems should look like? This is your opportunity for you to find collaborators and an audience.
+              a.button.button-color-4(href='think.html') more about thinking...
+          |         
+          .w-col.w-col-6.w-col-small-6.w-hidden-tiny.w-clearfix.full-column.image-2
+            img.w-hidden-small.w-hidden-tiny.right-diagonal(src='images/diagnal-left-white.svg', height='101.5%')
+      |     
+      .w-section.section.footer(data-ix='show-circles-menu')
+        .footer-lines
+        |       
+        .footer-holder
+    |   
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    |   
+    script(type='text/javascript', src='js/webflow.js')
+    //if lte IE 9
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js')
