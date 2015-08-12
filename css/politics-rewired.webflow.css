@@ -245,6 +245,9 @@ p {
   margin-left: auto;
   padding-top: 0px;
   text-align: center;
+  float: left; /*this is usually used to organize two divs into a row, but should work to keep the text from disappearing, but another solution would be to size the text (p) according to viewpoirt height and width (vh and vw), keeping in mind how big your container is in relation to the viewport. although the problem with that is it's not supported on all browsers*/
+  margin-bottom: auto; /*this will work together with float to keep the text in there when you resize, tho this hack might be imperfect, i'm going to keep testing it*/
+  
 }
 .left-diagonal {
   position: relative;
